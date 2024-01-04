@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="BrightITcodes"
+      content= 
+    />
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/services">Our Services</a>
+        <a href="/contact">Contact Us</a>
+      </nav>
+      <section>
+        <h1>Contact Us</h1>
+        <p>Feel free to get in touch with us at BrightITcodes! We welcome your inquiries, feedback, 
+          and the opportunity to connect. Whether you have specific project ideas, are interested in our services, 
+          or just want to chat about the latest in technology, we're here for you.
+
+      Contact Information:
+
+      Email: info@brightitcodes.com
+
+      Phone: +2347031885598
+
+    Address: 123 Bright Avenue,Tech City, ITland
+
+     Our team is ready and eager to assist. Drop us a message, give us a call,
+      or visit our office. We're looking forward to hearing from you and exploring
+       how BrightITcodes can contribute to your tech needs!</p>
+      </section>
+      <form action="/submit-contact" method="post" style="margin-bottom: 40px">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <p>
+        The Submit button did not go through?
+        <button
+          type="button"
+          onclick="window.location.href='mailto:olemilek100@gmail.com';"
+        >
+          SEND US DIRECT MAIL
+        </button>
+      </p>
+
+      <footer>
+       BrightITcodes &copy; 2023 All rights reserved.
+      </footer>
+    </main>
+  </body>
+</html>
